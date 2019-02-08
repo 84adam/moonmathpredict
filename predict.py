@@ -1,7 +1,9 @@
 # Based on https://www.moonmath.win/
 
-price = 3400    # Current price in USD
-rate = 0.2406   # Compound Daily Periodic Rate (est. weighted average, 2010-2017)
+# Current price in USD
+price = 3400
+# Compound Daily Periodic Rate (modified weighted average based on years 2010-2017)
+rate = 0.2406
 
 def compound_interest(principle, rate, time): 
     # Calculates compound interest 
